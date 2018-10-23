@@ -1,0 +1,22 @@
+{
+  "name": "autoresteem",
+  "version": "1.0.0",
+  "description": "Auto resteems any post upvoted by a Steem account",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Reazul Iqbal",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.1",
+    "delay": "^4.1.0",
+    "dotenv": "^6.1.0",
+    "dsteem": "^0.10.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
